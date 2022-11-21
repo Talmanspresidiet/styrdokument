@@ -58,8 +58,8 @@
   \crefname{subsection}{avsnitt}{avsnitt}
   % \crefname{subsubsection}{stycke}{stycken}
   \crefformat{paragraph}{#2\S#1#3}
-  \crefrangeformat{paragraph}{\S\S#3#1#2--#5#2#6}
-  \crefmultiformat{paragraph}{\S\S#2#1#3}{ och~#2#1#3}{, #2#1#3}{ och~#2#1#3}
+  \crefrangeformat{paragraph}{\S#3#1#2--\S#5#2#6}
+  \crefmultiformat{paragraph}{\S#2#1#3}{ och~\S#2#1#3}{, \S#2#1#3}{ och~\S#2#1#3}
 }
 
 \newcommand\?{%
@@ -92,8 +92,14 @@
   \end{center}
   
   \vspace{1cm}
-  \textsc{\@date}\\
-  \@link
+  \textsc{\@date}
+
+  \vspace{1cm}
+  Följande är en representation av lydelsen som gäller efter motionens bifall.
+  Vid tryckfel har motionen företräde.
+  Det slutgiltiga utseendet kan skilja sig beroende på styrelsens redaktionella införsel av
+  de antagna ändringarna.
+  %\@link
 \end{flushleft}
 }
 %\newcommand\@titlepage{
